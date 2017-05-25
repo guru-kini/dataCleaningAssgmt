@@ -19,3 +19,7 @@ The runAnalysis() function will output a dataset that fulfills the requirements 
 write.table(x, "finalDataSet.txt", row.names = F) # row.names = F is important!
 ```
 After executing this, the "finalDataSet.txt" can read and viewed as a grid using the readFinalData() function in the run_analysis.R file. This function takes the file path as the input and shows the read data as a grid. 
+
+## Thanks to
+1. The instructors, mentors and students active on the Coursera discussion groups. 
+2. David Hood aka Thoughtful Bloke for demystifying the whole assignment objectives through his [terrific post](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/)
